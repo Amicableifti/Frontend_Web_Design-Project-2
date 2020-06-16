@@ -1,0 +1,224 @@
+body{
+
+margin: 0px;
+}
+ header{
+
+/* background: red; */
+
+width: 100%;
+
+padding: 10px 0px;
+}
+  .container{
+
+width: 1200px;
+
+margin: auto;
+
+/* background: green; */
+
+display: flex;
+
+flex-wrap: nowrap;
+
+align-items: center;
+}
+   .logo{
+
+flex-basis: 30%;
+
+max-width: 30%;
+
+}
+   .logo img{
+
+padding: 10px;
+
+}
+
+nav{
+
+flex-basis: 70%;
+
+max-width: 70%;
+}
+ nav ul{
+
+display: flex;
+
+margin: 0;
+
+padding: 0;
+
+list-style-type: none;
+
+justify-content: flex-end;
+
+}
+  nav ul li{
+
+  }
+   nav ul li a{
+   	
+text-decoration: none;
+   	
+padding: 10px;
+   	
+text-transform: uppercase;
+   	
+color: #211a1a;
+   }
+ 
+ .Branding{
+ 	background-image: url(../image/portfolio-branding.jpg);
+ 	padding-top: 250px;
+ 	padding-bottom: 251px;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-position-y: top;
+ }
+  .Branding h1 {
+ 	
+font-size: 50px;
+ 	
+color: white;
+ 	
+background: #ff204e78;
+ 	
+width: 44%;
+ 	
+margin: auto;
+ 	
+border-radius: 6px;
+
+padding: 10px;
+ }
+ .Corporate{
+background-image: url(../image/portfolio-corporate.jpg);
+ 	padding-top: 250px;
+ 	padding-bottom: 251px;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-position-y: top;
+
+ }
+  .Corporate h1 {
+ 	
+font-size: 50px;
+ 	
+color: white;
+ 	
+background: #ff204e78;
+ 	
+width: 37%;
+ 	
+margin: auto;
+ 	
+border-radius: 6px;
+
+padding: 10px;
+ }
+ .Illustrationen{
+ 	background-image: url(../image/portfolio-illustrationen.jpg);
+ 	padding-top: 250px;
+ 	padding-bottom: 251px;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-position-y: top;
+ }
+  .Illustrationen h1 {
+ 	
+font-size: 50px;
+ 	
+color: white;
+ 	
+background: #ff204e78;
+ 	
+width: 47%;
+ 	
+margin: auto;
+ 	
+border-radius: 6px;
+
+padding: 10px;
+ }
+ 
+ .Collection{
+ 	background-image: url(../image/portfolio-collection.jpg);
+ 	padding-top: 250px;
+ 	padding-bottom: 251px;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-position-y: top;
+ }
+  .Collection h1 {
+ 	
+font-size: 50px;
+ 	
+color: white;
+ 	
+background: #ff204e78;
+ 	
+width: 40%;
+ 	
+margin: auto;
+ 	
+border-radius: 6px;
+
+padding: 10px;
+ }
+ .Simple{
+ 	background-image: url(../image/portfolio-simple.jpg);
+ 	padding-top: 250px;
+ 	padding-bottom: 251px;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-position-y: top;
+ }
+  .Simple h1 {
+ 	
+font-size: 50px;
+ 	
+color: white;
+ 	
+background: #ff204e78;
+ 	
+width: 42%;
+ 	
+margin: auto;
+ 	
+border-radius: 6px;
+
+padding: 10px;
+ }
+ .Absinthe{
+ 	background-image: url(../image/portfolio-absinthe.jpg);
+ 	padding-top: 250px;
+ 	padding-bottom: 251px;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-position-y: top;
+ }
+  .Absinthe h1 {
+ 	
+font-size: 50px;
+ 	
+color: white;
+ 	
+background: #ff204e78;
+ 	
+width: 37%;
+ 	
+margin: auto;
+ 	
+border-radius: 6px;
+
+padding: 10px;
+ }
